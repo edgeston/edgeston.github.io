@@ -1,192 +1,50 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converse Product Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <article>
+        <header>
+          <h2 class="product-title">Converse Chuck Taylor All Star Low Top</h2>
+        </header>
+        <img
+          class="product-img"
+          src="./challenges.jpg"
+          alt="Women wearing black converse shoes"
+          height="300"
+          width="300"
+        />
+        <p class="price"><strong>$65.00</strong></p>
+        <p class="shipping">Free Shipping</p>
+        <p class="product-pitch">
+          Ready to dress up or down, these classic canvas Chucks are an everyday
+          wardrobe staple.
+        </p>
 
-<head>
-	<title>Monikka Edgeston</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8TMQ9BTTT"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+        <a class="more-product-info" href="#">More Information &rarr;</a>
+        <ul>
+          <li class="black block"></li>
+          <li class="blue block"></li>
+          <li class="red block"></li>
+          <li class="yellow block"></li>
+          <li class="green block"></li>
+          <li class="brown block"></li>
+        </ul>
+        <h3 class="product-details">Product Details</h3>
+        <ul class="product-details-li">
+          <li>Lightweight, durable canvas sneaker</li>
+          <li>Lightly padded footbed for added comfort</li>
+          <li>Iconic Chuck Taylor ankle patch</li>
+        </ul>
 
-		gtag('config', 'G-S8TMQ9BTTT');
-	</script>
-</head>
-
-<body class="is-preload">
-
-	<!-- Page Wrapper -->
-	<div id="page-wrapper">
-
-		<!-- Header -->
-		<header id="header" class="alt">
-			<h1><a href="index.html">Monikka Edgeston</a></h1>
-			<nav>
-				<a href="#menu">Menu</a>
-			</nav>
-		</header>
-
-		<!-- Menu -->
-		<nav id="menu">
-			<div class="inner">
-				<h2>Menu</h2>
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about-me.html">About Me & Skills</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="#contact-me">Contact Me</a></li>
-				</ul>
-				<a href="#" class="close">Close</a>
-			</div>
-		</nav>
-
-		<!-- Banner -->
-		<section id="banner">
-			<div class="inner">
-				<div class="logo"><span class="icon fa-gem"></span></div>
-				<h2>Monikka Edgeston</h2>
-				<h3>Front-End Web Developer</h3>
-			</div>
-		</section>
-
-		<!-- Wrapper -->
-		<section id="wrapper">
-
-			<!-- One -->
-			<section id="one" class="wrapper spotlight style1">
-				<div class="inner">
-					<a href="about-me.html" class="image">
-						<img src="IMG_20200828_111902287_HDR_Easy-Resize.com.jpg" alt="Google Homepage"></a>
-					<div class="content">
-						<h2 class="major">About Me & Skills</h2>
-						<p>Here is my About Me & Skills page, documenting my fun journey into Software Engineering
-							with skills I've been picking up along the way.</p>
-						<a href="about-me.html" class="special">About Me & Skills</a>
-					</div>
-				</div>
-			</section>
-
-			<!-- Two -->
-			<section id="two" class="wrapper alt spotlight style2">
-				<div class="inner">
-					<a href="projects.html" class="image"><img src="images/Projects.gif" alt="" /></a>
-					<div class="content">
-						<h2 class="major">Projects</h2>
-						<p>Check out some of my cool fun projects!</p>
-						<a href="projects.html" class="special">Projects</a>
-					</div>
-				</div>
-			</section>
-
-			<!-- Three -->
-			<section id="three" class="wrapper spotlight style3">
-				<div class="inner">
-					<a href="#contact-me" class="image"><img src="https://media.giphy.com/media/tynT0xcmIiVpu/giphy.gif"
-							alt=" Simpsons Dial Giphy" /></a>
-					<div class="content">
-						<h2 class="major">Contact Me</h2>
-						<p>Please select the <strong>Contact Me</strong> or the image to view my contact information.
-						</p>
-						<a href="#contact-me" class="special">Contact Me</a>
-					</div>
-				</div>
-			</section>
-
-			<!-- Four -->
-			<section id="four" class="wrapper alt style1">
-				<div class="inner">
-					<h2 class="major">Projects</h2>
-					<p>Here's a quick glimpse of a couple of my projects. Feel free to select the See All Projects
-						button to view the rest.</p>
-					<section class="features">
-						<article>
-							<a href="https://monikkakindacodes.github.io/Weather-Application/" target="_blank"
-								rel="noopener noreferrer" class="image"><img src="images/Weather Application.gif"
-									alt="Weather Application" /></a>
-							<h3 class="major"> Feels like Weather Application</h3>
-							<p>"Feels Like" Weather Application, highlighting how it feels outside vs the actual
-								weather, ids location and adds weather description. Used the OpenWeather API</p>
-							<div class="font-awesome">
-								<h4>Created With:</h4>
-								<i class="fab fa-html5 fa-3x fa-fw"></i><i class="fab fa-css3-alt fa-3x fa-fw"></i><i
-									class="fab fa-js fa-3x fa-fw"></i>
-							</div>
-							<a href="https://monikkakindacodes.github.io/Weather-Application/" class="special"
-								target="_blank" rel="noopener noreferrer">Site</a>
-							<a href="https://github.com/MonikkaKindaCodes/Weather-Application" class="special"
-								target="_blank" rel="noopener noreferrer">Code</a>
-						</article>
-						<article>
-							<a href="https://monikkakindacodes.github.io/Number-Guessing-Game/" target="_blank"
-								rel="noopener noreferrer" class="image"><img src="images/Number Guessing Game.gif"
-									alt="Number Guessing Game gif" /></a>
-							<h3 class="major">Number Guessing Game</h3>
-							<p>Guess the secret number (1-20)</p>
-							<div class="font-awesome">
-								<h4>Created With:</h4>
-								<i class="fab fa-html5 fa-3x fa-fw"></i><i class="fab fa-css3-alt fa-3x fa-fw"></i><i
-									class="fab fa-js fa-3x fa-fw"></i>
-							</div>
-							<a href="https://monikkakindacodes.github.io/Number-Guessing-Game/" class="special"
-								target="_blank" rel="noopener noreferrer">Site</a>
-							<a href="https://github.com/MonikkaKindaCodes/Number-Guessing-Game" class="special"
-								target="_blank" rel="noopener noreferrer">Code</a>
-						</article>
-					</section>
-					<ul class="actions">
-						<li><a href="projects.html" class="button">See All
-								Projects</a></li>
-					</ul>
-				</div>
-			</section>
-
-		</section>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="inner">
-				<h2 class="major" id="contact-me">Contact Me</h2>
-				<p>If you have any questions, concerns or even suggestions, feel free to contact me at through any of
-					the mediums below.</p>
-				<ul class="contact">
-					<li class="icon solid fa-phone">(309) 750-9560</li>
-					<li class="icon solid fa-envelope"><a
-							href="mailto: m.edgeston130@gmail.com">m.edgeston130@gmail.com</a></li>
-					<li class="icon brands fa-github"><a href="https://github.com/MonikkaKindaCodes" target="_blank"
-							rel="noopener noreferrer">GitHub Profile</a></li>
-					<li class="icon brands fa-linkedin-in"><a
-							href="https://www.linkedin.com/in/monikka-edgeston-34259a168/" target="_blank"
-							rel="noopener noreferrer">LinkedIn Profile</a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled Inc. All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</section>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
-</body>
-
+        <button class="button">Add to cart</button>
+      </article>
+    </div>
+  </body>
 </html>
